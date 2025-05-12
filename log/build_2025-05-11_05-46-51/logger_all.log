@@ -1,0 +1,198 @@
+[3.338s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.339s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71788d3d02b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71788d39bca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71788d39bca0>>)
+[7.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/muhammad/ros2_ws'
+[7.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.415s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.422s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[7.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[7.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[7.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[7.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[7.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[7.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[7.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[7.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[7.527s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[7.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['ignore', 'ignore_ament_install']
+[7.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ignore'
+[7.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ignore_ament_install'
+[7.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['colcon_pkg']
+[7.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'colcon_pkg'
+[7.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['colcon_meta']
+[7.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'colcon_meta'
+[7.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['ros']
+[7.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ros'
+[7.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_detector' with type 'ros.ament_python' and name 'yolo_detector'
+[7.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[8.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.057s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[9.058s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[9.059s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.060s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[9.062s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[9.063s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[9.063s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[9.064s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[9.065s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.066s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muhammad/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muhammad/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/muhammad/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[9.076s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_args' from command line to 'None'
+[9.077s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_target' from command line to 'None'
+[9.077s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.078s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[9.079s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_clean_first' from command line to 'False'
+[9.079s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_force_configure' from command line to 'False'
+[9.080s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'ament_cmake_args' from command line to 'None'
+[9.081s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[9.081s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.082s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/muhammad/ros2_ws/build/yolo_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/muhammad/ros2_ws/install/yolo_detector', 'merge_install': False, 'path': '/home/muhammad/ros2_ws/src/yolo_detector', 'symlink_install': False, 'test_result_base': None}
+[9.083s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.095s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.100s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/muhammad/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[9.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/muhammad/ros2_ws/src/px4_msgs'
+[9.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.244s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/muhammad/ros2_ws/src/yolo_detector' with build type 'ament_python'
+[9.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector', 'ament_prefix_path')
+[9.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.ps1'
+[9.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.dsv'
+[9.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.sh'
+[9.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muhammad/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhammad/ros2_ws/build/px4_msgs -- -j4 -l4
+[13.904s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/muhammad/ros2_ws/src/yolo_detector'
+[13.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muhammad/ros2_ws/src/yolo_detector': PYTHONPATH=/home/muhammad/ros2_ws/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhammad/ros2_ws/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/muhammad/ros2_ws/build/yolo_detector/build install --record /home/muhammad/ros2_ws/build/yolo_detector/install.log --single-version-externally-managed install_data
+[27.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muhammad/ros2_ws/src/yolo_detector' returned '0': PYTHONPATH=/home/muhammad/ros2_ws/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhammad/ros2_ws/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/muhammad/ros2_ws/build/yolo_detector/build install --record /home/muhammad/ros2_ws/build/yolo_detector/install.log --single-version-externally-managed install_data
+[27.463s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector' for CMake module files
+[27.469s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector' for CMake config files
+[27.474s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector/lib'
+[27.476s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector/bin'
+[27.476s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector/lib/pkgconfig/yolo_detector.pc'
+[27.484s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector/lib/python3.10/site-packages'
+[27.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector', 'pythonpath')
+[27.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/pythonpath.ps1'
+[27.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/pythonpath.dsv'
+[27.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/hook/pythonpath.sh'
+[27.510s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/yolo_detector/bin'
+[27.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_detector)
+[27.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/package.ps1'
+[27.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/package.dsv'
+[27.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/package.sh'
+[27.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/package.bash'
+[27.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/yolo_detector/share/yolo_detector/package.zsh'
+[27.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muhammad/ros2_ws/install/yolo_detector/share/colcon-core/packages/yolo_detector)
+[49.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muhammad/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhammad/ros2_ws/build/px4_msgs -- -j4 -l4
+[49.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/muhammad/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhammad/ros2_ws/build/px4_msgs
+[56.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[56.020s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs' for CMake module files
+[56.057s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs' for CMake config files
+[56.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[56.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[56.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[56.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[56.202s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib'
+[56.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[56.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[56.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[56.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[56.269s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/bin'
+[56.279s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[56.285s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[56.288s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/bin'
+[56.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[56.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[56.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[56.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[56.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[56.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muhammad/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[56.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[56.405s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs' for CMake module files
+[56.445s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs' for CMake config files
+[56.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[56.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[56.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[56.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[56.602s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib'
+[56.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[56.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[56.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[56.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[56.664s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/bin'
+[56.671s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[56.676s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[56.682s] Level 1:colcon.colcon_core.environment:checking '/home/muhammad/ros2_ws/install/px4_msgs/bin'
+[56.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[56.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[56.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[56.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[56.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/muhammad/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[56.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/muhammad/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[56.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[56.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[56.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[56.811s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[58.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/muhammad/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhammad/ros2_ws/build/px4_msgs
+[58.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[58.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[58.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[58.678s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[58.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muhammad/ros2_ws/install/local_setup.ps1'
+[58.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muhammad/ros2_ws/install/_local_setup_util_ps1.py'
+[58.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muhammad/ros2_ws/install/setup.ps1'
+[58.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muhammad/ros2_ws/install/local_setup.sh'
+[58.777s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/muhammad/ros2_ws/install/_local_setup_util_sh.py'
+[58.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muhammad/ros2_ws/install/setup.sh'
+[58.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muhammad/ros2_ws/install/local_setup.bash'
+[58.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muhammad/ros2_ws/install/setup.bash'
+[58.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/muhammad/ros2_ws/install/local_setup.zsh'
+[58.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/muhammad/ros2_ws/install/setup.zsh'

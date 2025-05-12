@@ -1,0 +1,14 @@
+from setuptools import find_packages, setup
+
+package_name = 'yolo_detector'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+'console_scripts': [
+        'yolo_detector = yolo_detector.yolo_detector:main',
+    ],
+    },
+)
