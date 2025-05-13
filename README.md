@@ -30,25 +30,34 @@ This repository showcases a robust vehicle detection system, integrating YOLOv8 
    ```bash
    git clone https://github.com/ProfessorYaseen/YOLOv8_Training_and_Drone_Integration.git
    cd YOLOv8_Training_and_Drone_Integration/ros2_ws
-2. **Build the Workspac**:
-```bash
+
+2. **Build the Workspace**:
+   ```bash
    colcon build
    source install/setup.bash
+
 3. **Launch the Simulation and Detection**:
-- Terminal 1: Start Gazebo:
-- Terminal 2: Spawn the drone (adjust path if needed):
-- Terminal 3: Spawn the car (adjust path if needed):
-- Terminal 4: Run the detection node:
-  ```bash
-  ros2 launch gazebo_ros gazebo.launch.py
-  ros2 run gazebo_ros spawn_entity.py -entity iris_with_fpv_cam -file /home/muhammad/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris_fpv_cam/iris_fpv_cam.sdf -x 0 -y 0 -z 1
-  ros2 run gazebo_ros spawn_entity.py -entity prius_hybrid -file ~/.gazebo/models/prius_hybrid/model.sdf -x 1 -y 0 -z 0
-  ros2 run yolo_detector yolo_detector
-4. ** Observe the “YOLOv8 Detection” window** for real-time results.
+   - Terminal 1: Start Gazebo:
+     ```bash
+     ros2 launch gazebo_ros gazebo.launch.py
+
+   - Terminal 2: Spawn the drone:
+     ```bash
+     ros2 run gazebo_ros spawn_entity.py -entity iris_with_fpv_cam -file /home/muhammad/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris_fpv_cam/iris_fpv_cam.sdf -x 0 -y 0 -z 1
+
+   - Terminal 3: Spawn the car:
+     ```bash
+     ros2 run gazebo_ros spawn_entity.py -entity prius_hybrid -file ~/.gazebo/models/prius_hybrid/model.sdf -x 1 -y 0 -z 0
+
+   - Terminal 4: Run the detection node:
+     ```bash
+     ros2 run yolo_detector yolo_detector
+
+   - Observe the "YOLOv8 Detection" window for real-time results.
 
 ## Results
-- Achieved 81% detection accuracy for vehicles in the Gazebo simulation, demonstrated via the “YOLOv8 Detection” window.  
-  ![Detection Screenshot](detection_screenshot.png)
+- Achieved 81% detection accuracy for vehicles in the Gazebo simulation, demonstrated via the "YOLOv8 Detection" window.
+- ![Detection Screenshot](detection_screenshot.png)
 - Successfully integrated computer vision (YOLOv8) with robotics simulation (ROS 2 and Gazebo), highlighting potential for military and civilian applications.
 
 ## Future Enhancements
@@ -57,3 +66,7 @@ This repository showcases a robust vehicle detection system, integrating YOLOv8 
 
 ## Contact
 I am eager to collaborate on innovative AI, computer vision, and robotics projects. Connect with me via GitHub or LinkedIn to explore opportunities!
+ 
+
+
+
