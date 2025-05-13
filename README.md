@@ -77,7 +77,7 @@ This repository showcases a robust vehicle detection system, integrating YOLOv8 
 - Expand the dataset and retrain for higher accuracy and broader vehicle types.
 
 ## Contact
-I am eager to collaborate on innovative AI, computer vision, and robotics projects. Connect with me via GitHub or LinkedIn to explore opportunities!
+I am eager to collaborate on innovative AI, computer vision, and robotics projects. Connect with me on  LinkedIn(https://www.linkedin.com/in/muhammad-yaseen-923496982516p/) to explore opportunities!
  
 
 
