@@ -25,6 +25,18 @@ This repository showcases a robust vehicle detection system, integrating YOLOv8 
 - `install/`, `log/`: Build artifacts and logs from the ROS 2 workspace.
 - `README.md`: This project documentation.
 
+## Dependencies
+- **Operating System**: Ubuntu 22.04 LTS
+- **ROS 2**: Humble Hawksbill
+- **Gazebo**: Version 11
+- **Python**: 3.8 or later
+- **Python Libraries**:
+  - `ultralytics` (for YOLOv8)
+  - `opencv-python` (for image processing)
+  - `numpy` (for numerical operations)
+- **Tools**: VS Code, Git, Kazam (optional, for screen recording)
+
+
 ## How to Run
 1. **Clone the Repository**:
    ```bash
